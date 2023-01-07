@@ -92,12 +92,12 @@ ul li {
 main {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: #FFF8F3;
 }
 
 .about {
     margin-top: 130px;
     padding: 130px 150px;
+    background-color: #FFF8F3
 }
 
 .about-title {
@@ -135,4 +135,62 @@ main {
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+
+/* what I do section */
+.what-do {
+    margin-top: 130px;
+
+
+}
+
+.what-do-info {
+    max-width: 910px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.what-do-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #181818;
+}
+
+.what-do-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.what-do-container {
+    display: flex;
+    gap: 24px;
+}
+
+.container-box {
+
+    left: 812px;
+    top: 1865px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.container-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+
+.container-description {
+    font-size: 16px;
+    color: #757575;
+
 }
